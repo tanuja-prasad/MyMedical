@@ -1,0 +1,438 @@
+/* Custom styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0c397c;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar-logo {
+    max-height: 80px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.dropdown-menu {
+    background-color: #0c397c;
+    border: none;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+}
+
+.hero {
+    background-image: url('hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: aqua;
+
+}
+
+.hero p span {
+    color: white;
+
+
+}
+
+.hero p span:hover {
+    color: cyan;
+    font-style: bold;
+
+
+}
+
+.btn-hero {
+    background-color: #0c397c;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-hero:hover {
+    background-color: white;
+    color: #051a39;
+}
+
+.section {
+    padding: 40px 0;
+
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0c397c;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-icon {
+    font-size: 36px;
+    color: #0c397c;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0c397c;
+}
+
+.feature-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+
+
+.testimonial-slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-container {
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.testimonial-card {
+    flex: 0 0 50%;
+    /* Display two cards at a time */
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.testimonial-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.testimonial-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c397c;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.form-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 80%;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #0c397c;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-button {
+    background-color: #0c397c;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #051a39;
+}
+
+.book-call-form {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+footer {
+    background-color: #0c397c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.blur-background {
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 999;
+    display: none;
+}
+
+.form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.form-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.form-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-content label {
+    display: block;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.form-content input[type="text"],
+.form-content input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-content button[type="submit"] {
+    background-color: #0c397c;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-content button[type="submit"]:hover {
+    background-color: #051a39;
+}
+
+
+.navbar.expanded {
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
+.modal-dialog {
+    height: 750px;
+    width: 400px;
+}
+
+.modal-body label {
+    text-align: left;
+    margin-bottom: 10px;
+    /* Remove bottom margin */
+}
+
+.modal-body input.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modal-body button[type="submit"] {
+    width: 100%;
+    background-color: #0c397c;
+    /* Reduced width */
+
+}
+
+.center {
+    width: 1300px;
+    height: 50px;
+    display: grid;
+    margin: 1px auto 0;
+    font-size: 20px;
+    background-color: cyan;
+    color: #051a39;
+    border-color: none;
+
+
+
+}
+
+/* Customize datepicker */
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+    background-color: white !important;
+}
+
+.abtcountwrap {
+    margin-top: 20px;
+    background-color: cyan;
+}
+
+.abtcountblk {
+    text-align: center;
+    width: 23%;
+}
+
+.counter {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0c397c;
+}
